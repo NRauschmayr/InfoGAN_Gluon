@@ -1,2 +1,3 @@
 # InfoGAN_Gluon
-Image similiarity search with InfoGAN
+Image similiarity search with InfoGAN. This repository contains a notebook that implements an InfoGAN based on [MXNet's Gluon API](https://mxnet.incubator.apache.org/gluon/index.html). InfoGAN is an extension of GANs, where the generator input is split in 2 parts: random noise and a latent code c (see InfoGAN Paper). The codes are made meaningful by maximizing the mutual information between code and generator output. InfoGAN learns a disentangled representation in a completely unsupervised manner. It can be used for many applications such as image similarity search. This notebook uses the DCGAN example from the [Straight Dope Book](https://gluon.mxnet.io/chapter14_generative-adversarial-networks/dcgan.html) and extends it to create an InfoGAN.
+
